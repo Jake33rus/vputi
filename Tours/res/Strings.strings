@@ -1,0 +1,19 @@
+/* 
+  Strings.strings
+  Tours
+
+  Created by Евгений Уланов on 09.10.2021.
+  
+*/
+
+"Auth_title" = "С возвращением";
+"Auth_subtitle" = "Войдите для продолжения";
+"Auth_sign_in" = "Войти";
+"Auth_sign_out" = "Выйти";
+"Auth_register" = "Создать аккаунт";
+"Auth_forgot_password" = "Забыли пароль?";
+"Auth_do_not_accout_desc" = "У вас нет аккаунта?";
+"Auth_with_social_networks" = "Войти через социальные сети";
+"Auth_user_name" = "Логин";
+"Autn_password" = "Пароль";
+
