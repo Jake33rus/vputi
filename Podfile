@@ -13,4 +13,5 @@ target 'Tours' do
   pod 'gRPC-Swift', '~> 1.5.0'
   pod ‘gRPC-Swift-Plugins’, '~> 1.5.0'
   pod 'SwiftProtobuf', '~> 1.9.0'
+  pod 'SnapKit', '~> 5.6.0'
 end
