@@ -27,8 +27,9 @@ final class SelectInterestsInteractor: SelectInterestsBusinessLogic, SelectInter
   func doSomething(request: SelectInterests.Something.Request) {
     worker = SelectInterestsWorker()
     worker?.doSomeWork()
-    
-    let response = SelectInterests.Something.Response()
+
+    let interest = ["Ходить в театр", "Посещать общепит", "Посещать достопримечательности", "Танцы"]
+    let response = SelectInterests.Something.Response(interests: interest)
     presenter?.presentSomething(response: response)
   }
 }

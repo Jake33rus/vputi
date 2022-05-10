@@ -9,7 +9,7 @@
 
 import UIKit
 
-protocol AuthDisplayLogic: class
+protocol AuthDisplayLogic: AnyObject
 {
   func displaySomething(viewModel: Auth.Something.ViewModel)
 }

@@ -10,16 +10,16 @@
 import UIKit
 
 protocol SelectInterestsPresentationLogic {
-  func presentSomething(response: SelectInterests.Something.Response)
+    func presentSomething(response: SelectInterests.Something.Response)
 }
 
 final class SelectInterestsPresenter: SelectInterestsPresentationLogic {
-  weak var viewController: SelectInterestsDisplayLogic?
-  
-  // MARK: Do something
-  
-  func presentSomething(response: SelectInterests.Something.Response) {
-    let viewModel = SelectInterests.Something.ViewModel()
-    viewController?.displaySomething(viewModel: viewModel)
-  }
+    weak var viewController: SelectInterestsDisplayLogic?
+
+    // MARK: Do something
+
+    func presentSomething(response: SelectInterests.Something.Response) {
+        let viewModel = SelectInterests.Something.ViewModel(interests: response.interests)
+        viewController?.displaySomething(viewModel: viewModel)
+    }
 }

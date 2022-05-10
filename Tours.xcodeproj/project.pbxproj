@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5C242CB02711D36600132651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242CAF2711D36600132651 /* AppDelegate.swift */; };
 		5C242CB22711D36600132651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242CB12711D36600132651 /* SceneDelegate.swift */; };
-		5C242CB72711D36600132651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C242CB52711D36600132651 /* Main.storyboard */; };
 		5C242CB92711D36800132651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C242CB82711D36800132651 /* Assets.xcassets */; };
 		5C242CBC2711D36800132651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C242CBA2711D36800132651 /* LaunchScreen.storyboard */; };
 		5C242CE22711D50F00132651 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C242CE12711D50F00132651 /* Strings.strings */; };
@@ -21,7 +20,24 @@
 		5C242CFB27120A3400132651 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242CFA27120A3400132651 /* JSONParameterEncoder.swift */; };
 		5C242CFE27120AEF00132651 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242CFD27120AEF00132651 /* NetworkRouter.swift */; };
 		5C242D0C2713997000132651 /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242D0B2713997000132651 /* AuthToken.swift */; };
-		5C242D1127139BDD00132651 /* VKAuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242D1027139BDD00132651 /* VKAuthDelegate.swift */; };
+		5C707EFF27D4BCF9000F1565 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707EFE27D4BCF9000F1565 /* Date+Extension.swift */; };
+		5C707F0127D4BD71000F1565 /* String+URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707F0027D4BD71000F1565 /* String+URL+Extension.swift */; };
+		5C707F0327D4BDDA000F1565 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707F0227D4BDDA000F1565 /* UIStackView+Extension.swift */; };
+		5C707F0527D4BE29000F1565 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707F0427D4BE29000F1565 /* UIColor+Extension.swift */; };
+		5C707F0727D4BF02000F1565 /* Numeric+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707F0627D4BF02000F1565 /* Numeric+Extension.swift */; };
+		5C707F0A27D4BF97000F1565 /* CheckInterestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707F0927D4BF97000F1565 /* CheckInterestCellView.swift */; };
+		5C707F0D27D4C2E0000F1565 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C707F0C27D4C2E0000F1565 /* CheckBox.swift */; };
+		5C7C410B282A9D34000C7A4E /* SelectInterestsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C410A282A9D34000C7A4E /* SelectInterestsAssembly.swift */; };
+		5C7CE4E827D4F96B007808E9 /* RouteRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE4E727D4F96B007808E9 /* RouteRequestModel.swift */; };
+		5C7CE4EA27D64D71007808E9 /* MagicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE4E927D64D71007808E9 /* MagicLayout.swift */; };
+		5C7CE4EC27D64F3C007808E9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE4EB27D64F3C007808E9 /* UIView+Extension.swift */; };
+		5C7CE4F227D65606007808E9 /* TopRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE4F127D65606007808E9 /* TopRoundedView.swift */; };
+		5C7CE4F427D6578D007808E9 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE4F327D6578D007808E9 /* MainButton.swift */; };
+		5C7CE4F727D65858007808E9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE4F627D65858007808E9 /* Colors.swift */; };
+		5C8ECBB227D4DF4C00952FCF /* route.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8ECBB127D4DF4C00952FCF /* route.pb.swift */; };
+		5C8ECBB427D4E21700952FCF /* RouteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8ECBB327D4E21700952FCF /* RouteClient.swift */; };
+		5C8ECBB627D4E3CC00952FCF /* route.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8ECBB527D4E3CC00952FCF /* route.grpc.swift */; };
+		5CA6F197282870CA00ECEE48 /* UIView+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6F196282870CA00ECEE48 /* UIView+Blur.swift */; };
 		5CDA3C09278353F300E6C6A9 /* WelcomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA3C03278353F300E6C6A9 /* WelcomeScreenPresenter.swift */; };
 		5CDA3C0A278353F300E6C6A9 /* WelcomeScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA3C04278353F300E6C6A9 /* WelcomeScreenWorker.swift */; };
 		5CDA3C0B278353F300E6C6A9 /* WelcomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA3C05278353F300E6C6A9 /* WelcomeScreenRouter.swift */; };
@@ -96,7 +112,6 @@
 		5C242CAC2711D36600132651 /* Tours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C242CAF2711D36600132651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C242CB12711D36600132651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C242CB62711D36600132651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C242CB82711D36800132651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C242CBB2711D36800132651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C242CBD2711D36800132651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +124,24 @@
 		5C242CFA27120A3400132651 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		5C242CFD27120AEF00132651 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		5C242D0B2713997000132651 /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
-		5C242D1027139BDD00132651 /* VKAuthDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKAuthDelegate.swift; sourceTree = "<group>"; };
+		5C707EFE27D4BCF9000F1565 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		5C707F0027D4BD71000F1565 /* String+URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URL+Extension.swift"; sourceTree = "<group>"; };
+		5C707F0227D4BDDA000F1565 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		5C707F0427D4BE29000F1565 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5C707F0627D4BF02000F1565 /* Numeric+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Extension.swift"; sourceTree = "<group>"; };
+		5C707F0927D4BF97000F1565 /* CheckInterestCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInterestCellView.swift; sourceTree = "<group>"; };
+		5C707F0C27D4C2E0000F1565 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		5C7C410A282A9D34000C7A4E /* SelectInterestsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectInterestsAssembly.swift; sourceTree = "<group>"; };
+		5C7CE4E727D4F96B007808E9 /* RouteRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRequestModel.swift; sourceTree = "<group>"; };
+		5C7CE4E927D64D71007808E9 /* MagicLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLayout.swift; sourceTree = "<group>"; };
+		5C7CE4EB27D64F3C007808E9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5C7CE4F127D65606007808E9 /* TopRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoundedView.swift; sourceTree = "<group>"; };
+		5C7CE4F327D6578D007808E9 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		5C7CE4F627D65858007808E9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5C8ECBB127D4DF4C00952FCF /* route.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = route.pb.swift; sourceTree = "<group>"; };
+		5C8ECBB327D4E21700952FCF /* RouteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteClient.swift; sourceTree = "<group>"; };
+		5C8ECBB527D4E3CC00952FCF /* route.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = route.grpc.swift; sourceTree = "<group>"; };
+		5CA6F196282870CA00ECEE48 /* UIView+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Blur.swift"; sourceTree = "<group>"; };
 		5CDA3C03278353F300E6C6A9 /* WelcomeScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenPresenter.swift; sourceTree = "<group>"; };
 		5CDA3C04278353F300E6C6A9 /* WelcomeScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenWorker.swift; sourceTree = "<group>"; };
 		5CDA3C05278353F300E6C6A9 /* WelcomeScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenRouter.swift; sourceTree = "<group>"; };
@@ -222,12 +254,12 @@
 		5C242CAE2711D36600132651 /* Tours */ = {
 			isa = PBXGroup;
 			children = (
+				5C8ECBB027D4DEB300952FCF /* GRPC_Models */,
 				5C242CE42712046100132651 /* NetworkLayer */,
 				5C242CE02711D4E800132651 /* res */,
 				5C242CC42711D38300132651 /* src */,
 				5C242CAF2711D36600132651 /* AppDelegate.swift */,
 				5C242CB12711D36600132651 /* SceneDelegate.swift */,
-				5C242CB52711D36600132651 /* Main.storyboard */,
 				5C242CBA2711D36800132651 /* LaunchScreen.storyboard */,
 				5C242CBD2711D36800132651 /* Info.plist */,
 			);
@@ -237,6 +269,8 @@
 		5C242CC42711D38300132651 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				5C707EFD27D4BCBF000F1565 /* Extensions */,
+				5CAD3C6C27D4B7610028635F /* UIElements */,
 				5C242CC52711D39800132651 /* screens */,
 			);
 			path = src;
@@ -266,8 +300,6 @@
 				5C242D0A2713995500132651 /* AuthService */,
 				5C242CE82712049A00132651 /* Encoding */,
 				5C242CE72712049300132651 /* Service */,
-				5C242CE62712048700132651 /* Manager */,
-				5C242CE52712047D00132651 /* EndPoint */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -288,6 +320,7 @@
 		5C242CE02711D4E800132651 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				5C7CE4F627D65858007808E9 /* Colors.swift */,
 				5C242CB82711D36800132651 /* Assets.xcassets */,
 				5C242CE12711D50F00132651 /* Strings.strings */,
 			);
@@ -300,20 +333,6 @@
 				5C242CC62711D3A800132651 /* Networking */,
 			);
 			path = NetworkLayer;
-			sourceTree = "<group>";
-		};
-		5C242CE52712047D00132651 /* EndPoint */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = EndPoint;
-			sourceTree = "<group>";
-		};
-		5C242CE62712048700132651 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		5C242CE72712049300132651 /* Service */ = {
@@ -341,9 +360,85 @@
 			isa = PBXGroup;
 			children = (
 				5C242D0B2713997000132651 /* AuthToken.swift */,
-				5C242D1027139BDD00132651 /* VKAuthDelegate.swift */,
 			);
 			path = AuthService;
+			sourceTree = "<group>";
+		};
+		5C707EFD27D4BCBF000F1565 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C707EFE27D4BCF9000F1565 /* Date+Extension.swift */,
+				5C707F0027D4BD71000F1565 /* String+URL+Extension.swift */,
+				5C707F0227D4BDDA000F1565 /* UIStackView+Extension.swift */,
+				5C707F0427D4BE29000F1565 /* UIColor+Extension.swift */,
+				5C707F0627D4BF02000F1565 /* Numeric+Extension.swift */,
+				5C7CE4E927D64D71007808E9 /* MagicLayout.swift */,
+				5C7CE4EB27D64F3C007808E9 /* UIView+Extension.swift */,
+				5CA6F196282870CA00ECEE48 /* UIView+Blur.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C707F0827D4BF48000F1565 /* CheckInterestCellView */ = {
+			isa = PBXGroup;
+			children = (
+				5C707F0927D4BF97000F1565 /* CheckInterestCellView.swift */,
+			);
+			path = CheckInterestCellView;
+			sourceTree = "<group>";
+		};
+		5C707F0B27D4C2D1000F1565 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				5C707F0C27D4C2E0000F1565 /* CheckBox.swift */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		5C7CE4E627D4F94F007808E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CE4E727D4F96B007808E9 /* RouteRequestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C7CE4F027D655E4007808E9 /* TopRoudedView */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CE4F127D65606007808E9 /* TopRoundedView.swift */,
+			);
+			path = TopRoudedView;
+			sourceTree = "<group>";
+		};
+		5C7CE4F527D65793007808E9 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CE4F327D6578D007808E9 /* MainButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5C8ECBB027D4DEB300952FCF /* GRPC_Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CE4E627D4F94F007808E9 /* Models */,
+				5C8ECBB127D4DF4C00952FCF /* route.pb.swift */,
+				5C8ECBB527D4E3CC00952FCF /* route.grpc.swift */,
+				5C8ECBB327D4E21700952FCF /* RouteClient.swift */,
+			);
+			path = GRPC_Models;
+			sourceTree = "<group>";
+		};
+		5CAD3C6C27D4B7610028635F /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CE4F527D65793007808E9 /* Buttons */,
+				5C7CE4F027D655E4007808E9 /* TopRoudedView */,
+				5C707F0B27D4C2D1000F1565 /* CheckBox */,
+				5C707F0827D4BF48000F1565 /* CheckInterestCellView */,
+			);
+			path = UIElements;
 			sourceTree = "<group>";
 		};
 		5CDA3C022783535B00E6C6A9 /* WelcomeScene */ = {
@@ -446,6 +541,7 @@
 				5CDA3C7C27835F0000E6C6A9 /* SelectInterestsModels.swift */,
 				5CDA3C7D27835F0000E6C6A9 /* SelectInterestsViewController.swift */,
 				5CDA3C7E27835F0000E6C6A9 /* SelectInterestsInteractor.swift */,
+				5C7C410A282A9D34000C7A4E /* SelectInterestsAssembly.swift */,
 			);
 			path = SelectInterestsScene;
 			sourceTree = "<group>";
@@ -546,7 +642,6 @@
 				5C242CBC2711D36800132651 /* LaunchScreen.storyboard in Resources */,
 				5C242CE22711D50F00132651 /* Strings.strings in Resources */,
 				5C242CB92711D36800132651 /* Assets.xcassets in Resources */,
-				5C242CB72711D36600132651 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,28 +696,37 @@
 			files = (
 				5CDA3C322783547B00E6C6A9 /* MainModels.swift in Sources */,
 				5C242CF2271205D600132651 /* HTTPTask.swift in Sources */,
+				5C707F0327D4BDDA000F1565 /* UIStackView+Extension.swift in Sources */,
 				5CDA3C9D2783701E00E6C6A9 /* SettingsViewController.swift in Sources */,
 				5CDA3C152783543100E6C6A9 /* AuthPresenter.swift in Sources */,
 				5CDA3C8027835F0000E6C6A9 /* SelectInterestsWorker.swift in Sources */,
 				5C242CF82712087500132651 /* URLParameterEncoder.swift in Sources */,
 				5CDA3C0D278353F300E6C6A9 /* WelcomeScreenViewController.swift in Sources */,
+				5C7CE4F227D65606007808E9 /* TopRoundedView.swift in Sources */,
+				5C8ECBB627D4E3CC00952FCF /* route.grpc.swift in Sources */,
 				5CDA3C6927835B6900E6C6A9 /* RouteDetailsInteractor.swift in Sources */,
+				5C707F0727D4BF02000F1565 /* Numeric+Extension.swift in Sources */,
 				5CDA3C5827835ACF00E6C6A9 /* RouteListWorker.swift in Sources */,
 				5CDA3C2F2783547B00E6C6A9 /* MainPresenter.swift in Sources */,
+				5C707F0127D4BD71000F1565 /* String+URL+Extension.swift in Sources */,
 				5CDA3C0B278353F300E6C6A9 /* WelcomeScreenRouter.swift in Sources */,
 				5CDA3C4F278354B600E6C6A9 /* AddCityInteractor.swift in Sources */,
 				5CDA3C6627835B6900E6C6A9 /* RouteDetailsRouter.swift in Sources */,
 				5CDA3C8427835F0000E6C6A9 /* SelectInterestsInteractor.swift in Sources */,
 				5C242CFB27120A3400132651 /* JSONParameterEncoder.swift in Sources */,
 				5CDA3C5C27835ACF00E6C6A9 /* RouteListInteractor.swift in Sources */,
+				5C7C410B282A9D34000C7A4E /* SelectInterestsAssembly.swift in Sources */,
 				5CDA3C992783701E00E6C6A9 /* SettingsPresenter.swift in Sources */,
 				5CDA3C252783544A00E6C6A9 /* RegistrationModels.swift in Sources */,
 				5C242CEE2712058000132651 /* HTTPMethod.swift in Sources */,
 				5CDA3C8327835F0000E6C6A9 /* SelectInterestsViewController.swift in Sources */,
 				5CDA3C172783543100E6C6A9 /* AuthRouter.swift in Sources */,
+				5C8ECBB227D4DF4C00952FCF /* route.pb.swift in Sources */,
 				5CDA3C302783547B00E6C6A9 /* MainWorker.swift in Sources */,
+				5C7CE4EA27D64D71007808E9 /* MagicLayout.swift in Sources */,
 				5CDA3C232783544A00E6C6A9 /* RegistrationWorker.swift in Sources */,
 				5CDA3C0A278353F300E6C6A9 /* WelcomeScreenWorker.swift in Sources */,
+				5C8ECBB427D4E21700952FCF /* RouteClient.swift in Sources */,
 				5CDA3C332783547B00E6C6A9 /* MainViewController.swift in Sources */,
 				5CDA3C4A278354B600E6C6A9 /* AddCityPresenter.swift in Sources */,
 				5C242D0C2713997000132651 /* AuthToken.swift in Sources */,
@@ -633,12 +737,16 @@
 				5C242CB02711D36600132651 /* AppDelegate.swift in Sources */,
 				5CDA3C5727835ACF00E6C6A9 /* RouteListPresenter.swift in Sources */,
 				5CDA3C0C278353F300E6C6A9 /* WelcomeScreenModels.swift in Sources */,
+				5C7CE4F427D6578D007808E9 /* MainButton.swift in Sources */,
 				5CDA3C8F2783700700E6C6A9 /* ProfileModels.swift in Sources */,
 				5CDA3C7427835BCA00E6C6A9 /* QuestionnaireRouter.swift in Sources */,
+				5CA6F197282870CA00ECEE48 /* UIView+Blur.swift in Sources */,
 				5CDA3C6727835B6900E6C6A9 /* RouteDetailsModels.swift in Sources */,
+				5C707F0527D4BE29000F1565 /* UIColor+Extension.swift in Sources */,
 				5CDA3C312783547B00E6C6A9 /* MainRouter.swift in Sources */,
 				5CDA3C4B278354B600E6C6A9 /* AddCityWorker.swift in Sources */,
 				5CDA3C342783547B00E6C6A9 /* MainInteractor.swift in Sources */,
+				5C707F0D27D4C2E0000F1565 /* CheckBox.swift in Sources */,
 				5CDA3C5927835ACF00E6C6A9 /* RouteListRouter.swift in Sources */,
 				5CDA3C6827835B6900E6C6A9 /* RouteDetailsViewController.swift in Sources */,
 				5CDA3C192783543100E6C6A9 /* AuthViewController.swift in Sources */,
@@ -648,6 +756,7 @@
 				5CDA3C4C278354B600E6C6A9 /* AddCityRouter.swift in Sources */,
 				5CDA3C162783543100E6C6A9 /* AuthWorker.swift in Sources */,
 				5CDA3C09278353F300E6C6A9 /* WelcomeScreenPresenter.swift in Sources */,
+				5C7CE4E827D4F96B007808E9 /* RouteRequestModel.swift in Sources */,
 				5CDA3C272783544A00E6C6A9 /* RegistrationInteractor.swift in Sources */,
 				5CDA3C5B27835ACF00E6C6A9 /* RouteListViewController.swift in Sources */,
 				5C242CEA271204E000132651 /* EndPointType.swift in Sources */,
@@ -666,14 +775,17 @@
 				5CDA3C9E2783701E00E6C6A9 /* SettingsInteractor.swift in Sources */,
 				5CDA3C4D278354B600E6C6A9 /* AddCityModels.swift in Sources */,
 				5C242CB22711D36600132651 /* SceneDelegate.swift in Sources */,
+				5C707EFF27D4BCF9000F1565 /* Date+Extension.swift in Sources */,
 				5CDA3C8D2783700700E6C6A9 /* ProfileWorker.swift in Sources */,
 				5CDA3C6427835B6900E6C6A9 /* RouteDetailsPresenter.swift in Sources */,
 				5CDA3C9C2783701E00E6C6A9 /* SettingsModels.swift in Sources */,
+				5C707F0A27D4BF97000F1565 /* CheckInterestCellView.swift in Sources */,
+				5C7CE4EC27D64F3C007808E9 /* UIView+Extension.swift in Sources */,
 				5CDA3C8227835F0000E6C6A9 /* SelectInterestsModels.swift in Sources */,
 				5CDA3C9B2783701E00E6C6A9 /* SettingsRouter.swift in Sources */,
-				5C242D1127139BDD00132651 /* VKAuthDelegate.swift in Sources */,
 				5CDA3C7627835BCA00E6C6A9 /* QuestionnaireViewController.swift in Sources */,
 				5CDA3C262783544A00E6C6A9 /* RegistrationViewController.swift in Sources */,
+				5C7CE4F727D65858007808E9 /* Colors.swift in Sources */,
 				5CDA3C912783700700E6C6A9 /* ProfileInteractor.swift in Sources */,
 				5CDA3C5A27835ACF00E6C6A9 /* RouteListModels.swift in Sources */,
 			);
@@ -682,14 +794,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5C242CB52711D36600132651 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C242CB62711D36600132651 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C242CBA2711D36800132651 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

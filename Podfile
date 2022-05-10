@@ -7,4 +7,10 @@ target 'Tours' do
 
   # Pods for Tours
   pod 'SwiftyVK'	
+  pod 'Alamofire', '~> 5.5'
+  pod 'MagicLayout'
+  pod 'SwiftNIO'
+  pod 'gRPC-Swift', '~> 1.5.0'
+  pod ‘gRPC-Swift-Plugins’, '~> 1.5.0'
+  pod 'SwiftProtobuf', '~> 1.9.0'
 end

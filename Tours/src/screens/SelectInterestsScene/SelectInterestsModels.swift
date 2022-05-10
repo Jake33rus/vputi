@@ -14,7 +14,11 @@ enum SelectInterests {
   
   enum Something {
     struct Request { }
-    struct Response { }
-    struct ViewModel { }
+    struct Response {
+        let interests: [String]
+    }
+    struct ViewModel {
+        let interests: [String]
+    }
   }
 }
